@@ -16,6 +16,7 @@
 		9C97F28528C5BAD500CD60BD /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C97F28428C5BAD500CD60BD /* OnboardingViewController.swift */; };
 		9CBC623828C80E8E00F7167B /* DummyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBC623728C80E8E00F7167B /* DummyViewController.swift */; };
 		9CBC623B28C8161300F7167B /* LocalState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBC623A28C8161300F7167B /* LocalState.swift */; };
+		9CBC623D28C8D14800F7167B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBC623C28C8D14800F7167B /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		9C97F28428C5BAD500CD60BD /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
 		9CBC623728C80E8E00F7167B /* DummyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyViewController.swift; sourceTree = "<group>"; };
 		9CBC623A28C8161300F7167B /* LocalState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalState.swift; sourceTree = "<group>"; };
+		9CBC623C28C8D14800F7167B /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,11 +64,12 @@
 		9C97F26828C2694800CD60BD /* Bankey */ = {
 			isa = PBXGroup;
 			children = (
-				9CBC623928C815F900F7167B /* Utils */,
-				9C97F28128C5B37B00CD60BD /* Onboarding */,
-				9C97F27D28C2EC3F00CD60BD /* Files */,
 				9C97F27E28C2ECAB00CD60BD /* Login */,
+				9C97F28128C5B37B00CD60BD /* Onboarding */,
+				9CBC623928C815F900F7167B /* Utils */,
+				9C97F27D28C2EC3F00CD60BD /* Files */,
 				9C97F26928C2694800CD60BD /* AppDelegate.swift */,
+				9CBC623C28C8D14800F7167B /* MainViewController.swift */,
 			);
 			path = Bankey;
 			sourceTree = "<group>";
@@ -185,6 +188,7 @@
 				9C97F28528C5BAD500CD60BD /* OnboardingViewController.swift in Sources */,
 				9C97F26A28C2694800CD60BD /* AppDelegate.swift in Sources */,
 				9C97F28328C5B3D200CD60BD /* OnboardingContainerViewController.swift in Sources */,
+				9CBC623D28C8D14800F7167B /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
