@@ -14,12 +14,11 @@ protocol OnboardingContainerViewControllerDelegate: AnyObject {
 class OnboardingContainerViewController: UIViewController {
 
     let pageViewController: UIPageViewController
-    let closeButton = UIButton(type: .system)
-
     var pages = [UIViewController]()
-    var currentVC: UIViewController
-
     weak var delegate: OnboardingContainerViewControllerDelegate?
+    
+    var currentVC: UIViewController
+    let closeButton = UIButton(type: .system)
     
     override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
         self.pageViewController = UIPageViewController(transitionStyle: .scroll, navigationOrientation: .horizontal, options: nil)
@@ -48,7 +47,7 @@ class OnboardingContainerViewController: UIViewController {
         style()
         layout()
     }
-        
+    
     private func setup() {
         view.backgroundColor = .systemPurple
         
@@ -120,7 +119,21 @@ extension OnboardingContainerViewController: UIPageViewControllerDataSource {
 
 // MARK: Actions
 extension OnboardingContainerViewController {
+    @objc func nextTapped(_ sender: UIButton) {
+        guard let nextVC = getNextViewController(from: currentVC) else { return }
+        pageViewController.setViewControllers([nextVC], direction: .forward, animated: true, completion: nil)
+    }
+    
+    @objc func backTapped(_ sender: UIButton) {
+        guard let previousVC = getPreviousViewController(from: currentVC) else { return }
+        pageViewController.setViewControllers([previousVC], direction: .reverse, animated: true, completion: nil)
+    }
+    
     @objc func closeTapped(_ sender: UIButton) {
-        // TODO
+        delegate?.didFinishOnboarding()
+    }
+    
+    @objc func doneTapped(_ sender: UIButton) {
+        delegate?.didFinishOnboarding()
     }
 }
