@@ -1,0 +1,13 @@
+New project without storyboards checklist
+
+Delete SceneDelegate.swift
+Delete Main.storybourd
+
+Search entire project (Command+Shift+f) : main
+
+Delete UIKit Main Storyboard File Base Name (deleting reference changes font from bold to regular)
+
+Delete from Info.plist Main : delete Application Scene Manifest
+
+Go to AppDelegate and insert NoStoryboard code snippet
+
