@@ -7,13 +7,31 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
+class View: UIView {
+    
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+        style()
+        layout()
     }
+    
+    required init?(coder: NSCoder) {
+        fatalError()
+    }
+    
+    override var intrinsicContentSize: CGSize {
+        return CGSize(width: 200, height: 200)
+    }
+}
 
-
+extension View {
+    
+    func style() {
+        translatesAutoresizingMaskIntoConstraints = false
+    }
+    
+    func layout() {
+        
+    }
 }
 
