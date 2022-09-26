@@ -10,7 +10,6 @@
 		9C4B05AB28C9FC3300C23A65 /* AccountSummaryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4B05AA28C9FC3300C23A65 /* AccountSummaryCell.swift */; };
 		9C4B05AD28CA128E00C23A65 /* DecimalUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4B05AC28CA128E00C23A65 /* DecimalUtils.swift */; };
 		9C4B05AF28CA12E600C23A65 /* CurrencyFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4B05AE28CA12E600C23A65 /* CurrencyFormatter.swift */; };
-		9C4B05C028CA52B300C23A65 /* CurrencyFormatterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4B05BF28CA52B300C23A65 /* CurrencyFormatterTests.swift */; };
 		9C97F26A28C2694800CD60BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C97F26928C2694800CD60BD /* AppDelegate.swift */; };
 		9C97F26E28C2694800CD60BD /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C97F26D28C2694800CD60BD /* LoginViewController.swift */; };
 		9C97F27328C2694B00CD60BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C97F27228C2694B00CD60BD /* Assets.xcassets */; };
@@ -30,10 +29,13 @@
 		9CC804AD28DFACD700E9756B /* ShakeyBellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC804AC28DFACD700E9756B /* ShakeyBellView.swift */; };
 		9CC804AF28E0052300E9756B /* Date+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC804AE28E0052300E9756B /* Date+Utils.swift */; };
 		9CC804B128E005CC00E9756B /* AccountSummaryViewController+Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC804B028E005CC00E9756B /* AccountSummaryViewController+Networking.swift */; };
+		9CC804D528E2589E00E9756B /* CurrencyFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC804D428E2589E00E9756B /* CurrencyFormatter.swift */; };
+		9CC804D828E258E200E9756B /* ProfileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC804D728E258E100E9756B /* ProfileTests.swift */; };
+		9CC804DA28E2598900E9756B /* AccountTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC804D928E2598900E9756B /* AccountTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		9C4B05BA28CA524300C23A65 /* PBXContainerItemProxy */ = {
+		9CC804CD28E224E200E9756B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 9C97F25E28C2694800CD60BD /* Project object */;
 			proxyType = 1;
@@ -46,8 +48,6 @@
 		9C4B05AA28C9FC3300C23A65 /* AccountSummaryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSummaryCell.swift; sourceTree = "<group>"; };
 		9C4B05AC28CA128E00C23A65 /* DecimalUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecimalUtils.swift; sourceTree = "<group>"; };
 		9C4B05AE28CA12E600C23A65 /* CurrencyFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyFormatter.swift; sourceTree = "<group>"; };
-		9C4B05B428CA524300C23A65 /* BankeyUnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BankeyUnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9C4B05BF28CA52B300C23A65 /* CurrencyFormatterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyFormatterTests.swift; sourceTree = "<group>"; };
 		9C97F26628C2694800CD60BD /* Bankey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bankey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C97F26928C2694800CD60BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9C97F26D28C2694800CD60BD /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -69,17 +69,22 @@
 		9CC804AC28DFACD700E9756B /* ShakeyBellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeyBellView.swift; sourceTree = "<group>"; };
 		9CC804AE28E0052300E9756B /* Date+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Utils.swift"; sourceTree = "<group>"; };
 		9CC804B028E005CC00E9756B /* AccountSummaryViewController+Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AccountSummaryViewController+Networking.swift"; sourceTree = "<group>"; };
+		9CC804C928E224E200E9756B /* BankeyUnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BankeyUnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CC804D328E2589D00E9756B /* BankeyUnitTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BankeyUnitTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		9CC804D428E2589E00E9756B /* CurrencyFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyFormatter.swift; sourceTree = "<group>"; };
+		9CC804D728E258E100E9756B /* ProfileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTests.swift; sourceTree = "<group>"; };
+		9CC804D928E2598900E9756B /* AccountTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9C4B05B128CA524300C23A65 /* Frameworks */ = {
+		9C97F26328C2694800CD60BD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9C97F26328C2694800CD60BD /* Frameworks */ = {
+		9CC804C628E224E200E9756B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -106,19 +111,11 @@
 			path = Cells;
 			sourceTree = "<group>";
 		};
-		9C4B05B528CA524300C23A65 /* BankeyUnitTests */ = {
-			isa = PBXGroup;
-			children = (
-				9C4B05BF28CA52B300C23A65 /* CurrencyFormatterTests.swift */,
-			);
-			path = BankeyUnitTests;
-			sourceTree = "<group>";
-		};
 		9C97F25D28C2694800CD60BD = {
 			isa = PBXGroup;
 			children = (
 				9C97F26828C2694800CD60BD /* Bankey */,
-				9C4B05B528CA524300C23A65 /* BankeyUnitTests */,
+				9CC804CA28E224E200E9756B /* BankeyUnitTests */,
 				9C97F26728C2694800CD60BD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -127,7 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				9C97F26628C2694800CD60BD /* Bankey.app */,
-				9C4B05B428CA524300C23A65 /* BankeyUnitTests.xctest */,
+				9CC804C928E224E200E9756B /* BankeyUnitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -209,27 +206,36 @@
 			path = Components;
 			sourceTree = "<group>";
 		};
+		9CC804CA28E224E200E9756B /* BankeyUnitTests */ = {
+			isa = PBXGroup;
+			children = (
+				9CC804D628E258C300E9756B /* AccountSummary */,
+				9CC804D228E2587200E9756B /* Utils */,
+			);
+			path = BankeyUnitTests;
+			sourceTree = "<group>";
+		};
+		9CC804D228E2587200E9756B /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				9CC804D428E2589E00E9756B /* CurrencyFormatter.swift */,
+				9CC804D328E2589D00E9756B /* BankeyUnitTests-Bridging-Header.h */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		9CC804D628E258C300E9756B /* AccountSummary */ = {
+			isa = PBXGroup;
+			children = (
+				9CC804D728E258E100E9756B /* ProfileTests.swift */,
+				9CC804D928E2598900E9756B /* AccountTests.swift */,
+			);
+			path = AccountSummary;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9C4B05B328CA524300C23A65 /* BankeyUnitTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9C4B05BE28CA524300C23A65 /* Build configuration list for PBXNativeTarget "BankeyUnitTests" */;
-			buildPhases = (
-				9C4B05B028CA524300C23A65 /* Sources */,
-				9C4B05B128CA524300C23A65 /* Frameworks */,
-				9C4B05B228CA524300C23A65 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9C4B05BB28CA524300C23A65 /* PBXTargetDependency */,
-			);
-			name = BankeyUnitTests;
-			productName = BankeyUnitTests;
-			productReference = 9C4B05B428CA524300C23A65 /* BankeyUnitTests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 		9C97F26528C2694800CD60BD /* Bankey */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9C97F27A28C2694B00CD60BD /* Build configuration list for PBXNativeTarget "Bankey" */;
@@ -247,6 +253,24 @@
 			productReference = 9C97F26628C2694800CD60BD /* Bankey.app */;
 			productType = "com.apple.product-type.application";
 		};
+		9CC804C828E224E200E9756B /* BankeyUnitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CC804CF28E224E200E9756B /* Build configuration list for PBXNativeTarget "BankeyUnitTests" */;
+			buildPhases = (
+				9CC804C528E224E200E9756B /* Sources */,
+				9CC804C628E224E200E9756B /* Frameworks */,
+				9CC804C728E224E200E9756B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9CC804CE28E224E200E9756B /* PBXTargetDependency */,
+			);
+			name = BankeyUnitTests;
+			productName = BankeyUnitTests;
+			productReference = 9CC804C928E224E200E9756B /* BankeyUnitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -257,12 +281,13 @@
 				LastSwiftUpdateCheck = 1340;
 				LastUpgradeCheck = 1340;
 				TargetAttributes = {
-					9C4B05B328CA524300C23A65 = {
-						CreatedOnToolsVersion = 13.4.1;
-						TestTargetID = 9C97F26528C2694800CD60BD;
-					};
 					9C97F26528C2694800CD60BD = {
 						CreatedOnToolsVersion = 13.4.1;
+					};
+					9CC804C828E224E200E9756B = {
+						CreatedOnToolsVersion = 13.4.1;
+						LastSwiftMigration = 1340;
+						TestTargetID = 9C97F26528C2694800CD60BD;
 					};
 				};
 			};
@@ -280,19 +305,12 @@
 			projectRoot = "";
 			targets = (
 				9C97F26528C2694800CD60BD /* Bankey */,
-				9C4B05B328CA524300C23A65 /* BankeyUnitTests */,
+				9CC804C828E224E200E9756B /* BankeyUnitTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		9C4B05B228CA524300C23A65 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		9C97F26428C2694800CD60BD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -303,17 +321,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		9C4B05B028CA524300C23A65 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
+		9CC804C728E224E200E9756B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C4B05C028CA52B300C23A65 /* CurrencyFormatterTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
 		9C97F26228C2694800CD60BD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -340,13 +357,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9CC804C528E224E200E9756B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CC804D528E2589E00E9756B /* CurrencyFormatter.swift in Sources */,
+				9CC804DA28E2598900E9756B /* AccountTests.swift in Sources */,
+				9CC804D828E258E200E9756B /* ProfileTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		9C4B05BB28CA524300C23A65 /* PBXTargetDependency */ = {
+		9CC804CE28E224E200E9756B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 9C97F26528C2694800CD60BD /* Bankey */;
-			targetProxy = 9C4B05BA28CA524300C23A65 /* PBXContainerItemProxy */;
+			targetProxy = 9CC804CD28E224E200E9756B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -362,40 +389,6 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		9C4B05BC28CA524300C23A65 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = BF7DPV6P6U;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.eugenio.BankeyUnitTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Bankey;
-			};
-			name = Debug;
-		};
-		9C4B05BD28CA524300C23A65 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = BF7DPV6P6U;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.eugenio.BankeyUnitTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Bankey;
-			};
-			name = Release;
-		};
 		9C97F27828C2694B00CD60BD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -564,18 +557,60 @@
 			};
 			name = Release;
 		};
+		9CC804D028E224E200E9756B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BF7DPV6P6U;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eugenio.BankeyUnitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "BankeyUnitTests/Utils/BankeyUnitTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bankey.app/Bankey";
+			};
+			name = Debug;
+		};
+		9CC804D128E224E200E9756B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BF7DPV6P6U;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eugenio.BankeyUnitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "BankeyUnitTests/Utils/BankeyUnitTests-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bankey.app/Bankey";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9C4B05BE28CA524300C23A65 /* Build configuration list for PBXNativeTarget "BankeyUnitTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9C4B05BC28CA524300C23A65 /* Debug */,
-				9C4B05BD28CA524300C23A65 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		9C97F26128C2694800CD60BD /* Build configuration list for PBXProject "Bankey" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -590,6 +625,15 @@
 			buildConfigurations = (
 				9C97F27B28C2694B00CD60BD /* Debug */,
 				9C97F27C28C2694B00CD60BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CC804CF28E224E200E9756B /* Build configuration list for PBXNativeTarget "BankeyUnitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CC804D028E224E200E9756B /* Debug */,
+				9CC804D128E224E200E9756B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
