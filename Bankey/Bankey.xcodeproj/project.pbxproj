@@ -28,6 +28,8 @@
 		9CC804A828DD744A00E9756B /* UITextField+SecureToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC804A728DD744A00E9756B /* UITextField+SecureToggle.swift */; };
 		9CC804AA28DD755900E9756B /* UIViewController+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC804A928DD755900E9756B /* UIViewController+Utils.swift */; };
 		9CC804AD28DFACD700E9756B /* ShakeyBellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC804AC28DFACD700E9756B /* ShakeyBellView.swift */; };
+		9CC804AF28E0052300E9756B /* Date+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC804AE28E0052300E9756B /* Date+Utils.swift */; };
+		9CC804B128E005CC00E9756B /* AccountSummaryViewController+Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC804B028E005CC00E9756B /* AccountSummaryViewController+Networking.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +67,8 @@
 		9CC804A728DD744A00E9756B /* UITextField+SecureToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+SecureToggle.swift"; sourceTree = "<group>"; };
 		9CC804A928DD755900E9756B /* UIViewController+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Utils.swift"; sourceTree = "<group>"; };
 		9CC804AC28DFACD700E9756B /* ShakeyBellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeyBellView.swift; sourceTree = "<group>"; };
+		9CC804AE28E0052300E9756B /* Date+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Utils.swift"; sourceTree = "<group>"; };
+		9CC804B028E005CC00E9756B /* AccountSummaryViewController+Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AccountSummaryViewController+Networking.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,6 +185,7 @@
 				9CC804A528DD717900E9756B /* NSNotificationName.swift */,
 				9CC804A728DD744A00E9756B /* UITextField+SecureToggle.swift */,
 				9CC804A928DD755900E9756B /* UIViewController+Utils.swift */,
+				9CC804AE28E0052300E9756B /* Date+Utils.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -191,6 +196,7 @@
 				9C4B05A828C9FBFA00C23A65 /* Header */,
 				9C4B05A928C9FC1900C23A65 /* Cells */,
 				9CBC623F28C8F6C800F7167B /* AccountSummaryViewController.swift */,
+				9CC804B028E005CC00E9756B /* AccountSummaryViewController+Networking.swift */,
 			);
 			path = AccountSummary;
 			sourceTree = "<group>";
@@ -313,6 +319,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9CC804AA28DD755900E9756B /* UIViewController+Utils.swift in Sources */,
+				9CC804AF28E0052300E9756B /* Date+Utils.swift in Sources */,
 				9CBC624228C8FAFC00F7167B /* AccountSummaryHeaderView.swift in Sources */,
 				9C4B05AB28C9FC3300C23A65 /* AccountSummaryCell.swift in Sources */,
 				9C97F28028C2ECE100CD60BD /* LoginView.swift in Sources */,
@@ -329,6 +336,7 @@
 				9C4B05AD28CA128E00C23A65 /* DecimalUtils.swift in Sources */,
 				9CBC623D28C8D14800F7167B /* MainViewController.swift in Sources */,
 				9CBC624028C8F6C800F7167B /* AccountSummaryViewController.swift in Sources */,
+				9CC804B128E005CC00E9756B /* AccountSummaryViewController+Networking.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
